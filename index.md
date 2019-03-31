@@ -24,7 +24,7 @@
   
   备注:该功能不是图床，仅提供CDN加速服务。
   
- ## 手机号归属地查询 API
+## 手机号归属地查询 API
   
   API地址:`http://api.ypig.tk/mobilesegmentapi.php`
   
@@ -45,7 +45,7 @@
   }
   ```
   
- ## 天气预报 API
+## 天气预报 API
   
   API地址:`http://api.ypig.tk/weatherapi.php`
   
@@ -126,7 +126,7 @@
   }
   ```
 
- ## 短链接生成 API
+## 短链接生成 API
   
   API地址:`http://api.ypig.tk/shortlinkapi.php`
   
@@ -143,7 +143,7 @@
   }
   ```
   
- ## 腾讯游戏新闻 API
+## 腾讯游戏新闻 API
   
   API地址:`http://api.ypig.tk/gamenewsapi.php`
   
@@ -229,6 +229,36 @@
     "other": null
   }
   ```
+  
+  >以下为私有接口，仅提供给合作个人使用，不对外开放。
+
+## 新加坡加速 API
+  
+  **注意:本API地址已经迁移到专有页面**
+  API地址:`http://ssr.ypig.tk/ssrapi.php`
+  
+  名称|必须|示例
+  --|:--:|--:
+  token|是|TOKEN
+  
+  返回结果
+  ```
+  ssr://test
+  ```
+  
+## 节点测速 API
+  
+  **注意:本API地址已经迁移到专有页面**
+  API地址:`http://ssr.ypig.tk/pingapi.php`
+  
+  名称|必须|示例
+  --|:--:|--:
+  node|是|test
+  
+  返回结果
+  ```
+  0.50000
+  ```
 
   ---
-  以上为全部API接口，更多接口正在持续更新中，欢迎访问[黄猪官网](https://ypig.tk/)探索更多有趣的小工具!
+  以上就是全部API接口，更多接口正在持续更新中，欢迎访问[黄猪官网](https://ypig.tk/)探索更多有趣的小工具!

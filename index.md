@@ -26,19 +26,6 @@
   
  ## 手机号归属地查询 API
   
-  API地址:`http://api.ypig.tk/phonesegment.php`
-  
-  名称|必须|示例
-  --|:--:|--:
-  telephone|是|18888888888
-  
-  返回结果
-  ```
-  https://graph.baidu.com/resource/10652ec7155abf116673401554033653.jpg
-  ```
-  
- ## 手机号归属地查询 API
-  
   API地址:`http://api.ypig.tk/mobilesegmentapi.php`
   
   名称|必须|示例
@@ -136,5 +123,109 @@
     },
     "message": "OK",
     "status": 200
+  }
+  ```
+
+ ## 短链接生成 API
+  
+  API地址:`http://api.ypig.tk/shortlinkapi.php`
+  
+  名称|必须|示例
+  --|:--:|--:
+  url|是|[https://ypig.tk/](https://ypig.tk/)
+  
+  返回结果
+  ```
+  {
+    "url_short": "http://t.cn/EciWLK7",
+    "url_long": "https://ypig.tk/",
+    "type": 0
+  }
+  ```
+  
+ ## 腾讯游戏新闻 API
+  
+  API地址:`http://api.ypig.tk/gamenewsapi.php`
+  
+  本API无需携带参数请求
+  
+  返回结果
+  ```
+  {
+    "code": 0,
+    "msg": "index",
+    "data": [{
+      "app_id": "20190331A0E97900",
+      "article_type": 1,
+      "bimg": "https://inews.gtimg.com/newsapp_bt/0/7047949212/641",
+      "category": "games",
+      "category1_chn": "游戏",
+      "category1_id": "10",
+      "category2_chn": "王者荣耀",
+      "category2_id": "1024",
+      "category_chn": "游戏",
+      "category_id": "10",
+      "comment_id": "3817198725",
+      "comment_num": 0,
+      "duration": 0,
+      "ext": {
+        "tonality_score": 0,
+        "news_score": 3,
+        "img_type": 3,
+        "video_count": 0
+      },
+      "flag": 0,
+      "fm_url": "",
+      "from": "kuaibao",
+      "id": "20190331A0E979",
+      "img": "https://inews.gtimg.com/newsapp_bt/0/7047949212/641",
+      "img_count": 5,
+      "img_type": 3,
+      "imgs": {
+        "295X195": "https://inews.gtimg.com/newsapp_ls/0/8372904247_294195/0",
+        "354X264": "https://inews.gtimg.com/newsapp_ls/0/8372904247_354264/0"
+      },
+      "intro": "王者荣耀中若是只能使用一技能，最强的英雄是哪位？90％都选她",
+      "irs_imgs": {
+        "295X195": ["https://inews.gtimg.com/newsapp_ls/0/8372904247_294195/0", "https://inews.gtimg.com/newsapp_ls/0/8372904249_294195/0", "https://inews.gtimg.com/newsapp_ls/0/8372983493_294195/0"],
+        "354X264": ["https://inews.gtimg.com/newsapp_ls/0/8372904247_354264/0", "https://inews.gtimg.com/newsapp_ls/0/8372904249_354264/0", "https://inews.gtimg.com/newsapp_ls/0/8372983493_354264/0"]
+      },
+      "keywords": "王者荣耀;王者荣耀\u0026吕布;王者荣耀\u0026伽罗",
+      "media_icon": "https://inews.gtimg.com/newsapp_ls/0/4349689985_200200/0",
+      "mini_img": "",
+      "multi_imgs": ["https://inews.gtimg.com/newsapp_bt/0/7047949212/641", "https://inews.gtimg.com/newsapp_bt/0/3220253088/641", "https://inews.gtimg.com/newsapp_bt/0/2517381499/641"],
+      "news_level": 3,
+      "play_url_high": "",
+      "play_url_medium": "",
+      "play_url_small": "",
+      "pool_type": "irs:img",
+      "publish_time": "2019-03-31 20:12:22",
+      "report": "{\"ext\": \"0+0\"+ \"all\": \";;;0+0\"+ \"3h\": \"43441+7861;39+448;games:0+0;0+0\"+ \"day\": \"275162+46533;442+2411;games:0+0;0+0\"}",
+      "s_group": 0,
+      "source": "悟空讲王者",
+      "source_fans": 0,
+      "source_id": "10605364",
+      "source_logo": "",
+      "strategy": 2,
+      "surl": "http://kuaibao.qq.com/s/20190331A0E97900",
+      "tag_label": [
+        ["王者荣耀", "204791"],
+        ["王者荣耀\u0026吕布", "296854"],
+        ["王者荣耀\u0026伽罗", "147814579"]
+      ],
+      "tags": "王者荣耀;王者荣耀\u0026吕布;王者荣耀\u0026伽罗",
+      "title": "王者荣耀中若是只能使用一技能，最强的英雄是哪位？90％都选她",
+      "ts": 1554034342,
+      "update_time": "2019-03-31 20:12:22",
+      "url": "https://xw.qq.com/cmsid/20190331A0E97900",
+      "view_count": 0,
+      "vurl": "https://new.qq.com/omn/20190331/20190331A0E97900"
+       ...
+    }],
+    "datanum": 7,
+    "seq": "20190331202045-rpPL4ggWnSNwLd4X",
+    "biz": 5999,
+    "s_group": "0",
+    "other": null
   }
   ```
